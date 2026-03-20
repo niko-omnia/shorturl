@@ -13,7 +13,7 @@ export function ButtonRounded({ onClick, icon }: ButtonRoundedProps) {
       <Button
         variant="outline"
         size="icon"
-        className="rounded-5"
+        className="rounded-5 cursor-pointer"
         onClick={onClick}
       >
         {icon}
