@@ -1,6 +1,6 @@
-"use client"
+"use client";
 
-import { redirect, usePathname } from "next/navigation"
+import { redirect, usePathname } from "next/navigation";
 
 import { Button } from "@/components/ui/button";
 import { HomeIcon } from "lucide-react";
