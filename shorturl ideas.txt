@@ -1,0 +1,17 @@
+link sharing site
+
+create short links, modify link target, track links
+
+qr code generation for links
+
+auth by google or email & pass
+
+dashboard to view & edit links
+- simple analytics to see how many clicks links have,
+- map of countries links are opened in (shopify style)
+
+https://dribbble.com/shots/21674965-hero-section-for-a-link-shortener-website
+https://dribbble.com/shots/18730764-SmartClick-Website-Design-Full-Version
+
+
+??? stripe & subscriptions
