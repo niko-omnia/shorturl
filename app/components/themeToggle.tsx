@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 
 import { useTheme } from "next-themes";
 import { SunIcon, MoonIcon } from "lucide-react";
-import { ButtonRounded } from "./buttonRounded";
+import { ButtonRounded } from "./ButtonRounded";
 
 export function ThemeToggle() {
   const { resolvedTheme, setTheme } = useTheme();

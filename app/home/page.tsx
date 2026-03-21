@@ -4,7 +4,7 @@ import { redirect } from "next/navigation";
 
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { Header } from "../components/header";
+import { Header } from "../components/Header";
 
 export default function Home() {
   return (
@@ -21,13 +21,15 @@ export default function Home() {
             className="flex flex-row gap-2 mt-1"
           >
             <Input
-              className="pt-5 pb-5 outline-none"
+              className="pt-5 pb-5 outline-none dark:bg-[#090909] border-gray-400 dark:border-[#cccccc40]"
               placeholder="Enter Link"
             />
             <Button
               variant="outline"
-              className="p-4 pt-5 pb-5 rounded-5 cursor-pointer"
-              onClick={() => redirect("/create")}
+              className="
+                p-4 pt-5 pb-5 rounded-5 cursor-pointer bg-black text-white border-[#cccccc40]
+                dark:text-black dark:bg-white hover:bg-gray-900 hover:text-white dark:hover:bg-gray-300"
+              onClick={() => redirect("/links?create=1")}
             >
               Shorten
             </Button>

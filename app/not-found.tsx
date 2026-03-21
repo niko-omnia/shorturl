@@ -4,7 +4,7 @@ import { redirect, usePathname } from "next/navigation";
 
 import { Button } from "@/components/ui/button";
 import { HomeIcon } from "lucide-react";
-import { Header } from "./components/header";
+import { Header } from "./components/Header";
 
 export default function notFound() {
     const pathname = usePathname();
@@ -28,7 +28,7 @@ export default function notFound() {
                     </div>
                     <Button
                         variant="outline"
-                        className="p-5 flex gap-2 cursor-pointer"
+                        className="p-5 flex gap-2 cursor-pointer border-gray-300 dark:border-[#cccccc40]"
                         onClick={() => redirect("/")}
                     >
                         <HomeIcon />
